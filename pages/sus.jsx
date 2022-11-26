@@ -16,7 +16,7 @@ import Imagem9 from "../public/TelaSUS/CAPS.jpg"
 import Imagem10 from "../public/TelaSUS/CRAS.jpg"
 import Imagem11 from "../public/TelaSUS/NASF.jpg"
 import Usuarioft from "../public/Outros/usuarioft.jpg"
-import questions from "../json/questions.json";
+import questions from "../questions.json";
 import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png"
 import SusColaboracoes from "../public/TelaHome/susColaboracoes.png"
 import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png"
@@ -111,9 +111,9 @@ export default function SUS() {
           <Image alt="Logo MiscWeb" src={LogoSUS} />
         </logosus>
 
-        <tituloa className="tituloacoes">
+        <titulo className="tituloacoes">
           Sistema Único de Saúde (SUS)
-        </tituloa>
+        </titulo>
 
         <introducao className="introducao">Introdução:</introducao>
 

@@ -298,9 +298,7 @@ export default function SUS() {
           <Image alt="Logo MiscWeb" src={Imagem2} />
         </div>
 
-        <span className="subintroducao3">
-          Equipe de Consultório na Rua
-        </span>
+        <span className="subintroducao3">Equipe de Consultório na Rua</span>
 
         <div className="blocotxt">
           <span>
@@ -492,13 +490,9 @@ export default function SUS() {
           <Image alt="Logo MiscWeb" src={Imagem5} />
         </div>
 
-        <span className="introducao3">
-          3 - Redes de atenção à saúde
-        </span>
+        <span className="introducao3">3 - Redes de atenção à saúde</span>
 
-        <span className="subintroducao6">
-          Unidade básica de saúde (UBS)
-        </span>
+        <span className="subintroducao6">Unidade básica de saúde (UBS)</span>
 
         <div className="blocotxt">
           <span>
@@ -608,9 +602,7 @@ export default function SUS() {
           <Image alt="Logo MiscWeb" src={Imagem7} />
         </div>
 
-        <span className="subintroducao8">
-          Unidade Hospitalar (UH)
-        </span>
+        <span className="subintroducao8">Unidade Hospitalar (UH)</span>
 
         <div className="blocotxt">
           <span>
@@ -896,9 +888,7 @@ export default function SUS() {
           }}
         />
 
-        <span className="textocolaboracoes">
-          Colaborações
-        </span>
+        <span className="textocolaboracoes">Colaborações</span>
 
         <div
           style={{

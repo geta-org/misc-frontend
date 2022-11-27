@@ -1,22 +1,21 @@
-import Head from "next/head"
-import Image from "next/image"
-import { Button } from "react-bootstrap"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
-import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoESF from "../public/TelaHome/esfHome.png"
-import Usuarioft from "../public/Outros/usuarioft.jpg"
-import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png"
-import SusColaboracoes from "../public/TelaHome/susColaboracoes.png"
-import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png"
-import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png"
-
+import Head from "next/head";
+import Image from "next/image";
+import { Button } from "react-bootstrap";
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png";
+import LogoGETA from "../public/Outros/logoGETA.png";
+import LogoESF from "../public/TelaHome/esfHome.png";
+import Usuarioft from "../public/Outros/usuarioft.jpg";
+import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png";
+import SusColaboracoes from "../public/TelaHome/susColaboracoes.png";
+import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png";
+import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png";
 
 export default function ESF() {
   return (
     <>
       <Head>
         <title>ESF</title>
-        <link rel="icon" href="/Outros/favicon.ico"/>
+        <link rel="icon" href="/Outros/favicon.ico" />
       </Head>
       <main className="main">
         <div className="navbar">
@@ -24,7 +23,7 @@ export default function ESF() {
             <span className="susnav">SUS</span>
           </a>
           <a href="/esf">
-           <span className="esfnav">Estratégia Saúde da Família</span>
+            <span className="esfnav">Estratégia Saúde da Família</span>
           </a>
           <a href="/acoes">
             <span className="acoesnav">Ações Desenvolvidas</span>
@@ -88,572 +87,887 @@ export default function ESF() {
           </span>
         </header>
         <div
-            style={{
-              display: "flex",
-              width: "47%",
-              height: "auto",
-              margin: "auto",
-              marginTop: "650px",
-            }}
-          >
-            <Image alt="Logo MiscWeb" src={LogoESF} />
-          </div>
-          
-          <span className="tituloacoes">
-          Estratégia Saúde da Família (ESF)
-          </span>
+          style={{
+            display: "flex",
+            width: "47%",
+            height: "auto",
+            margin: "auto",
+            marginTop: "650px",
+          }}
+        >
+          <Image alt="Logo MiscWeb" src={LogoESF} />
+        </div>
 
-          <span className="introducao">
-          Introdução:
-          </span>
+        <span className="tituloacoes">Estratégia Saúde da Família (ESF)</span>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Visa à reorganização da atenção primária no País, de acordo com os preceitos do SUS. 
-            É uma estratégia de expansão, qualificação e consolidação da atenção primária por favorecer uma 
-            reorientação do processo de trabalho com maior potencial de aprofundar os princípios, diretrizes e 
-            fundamentos da atenção primária, ampliando a resolutividade e impacto na situação de saúde das pessoas e 
-            coletividades, além de propiciar uma importante relação custo-efetividade.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+        <span className="introducao">Introdução:</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            Visa à reorganização da atenção primária no País, de acordo com os
+            preceitos do SUS. É uma estratégia de expansão, qualificação e
+            consolidação da atenção primária por favorecer uma reorientação do
+            processo de trabalho com maior potencial de aprofundar os
+            princípios, diretrizes e fundamentos da atenção primária, ampliando
+            a resolutividade e impacto na situação de saúde das pessoas e
+            coletividades, além de propiciar uma importante relação
+            custo-efetividade.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="introducao1">
-          1 -  Atenção primária a saúde
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
           </span>
+        </div>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+        <span className="introducao1">1 - Atenção primária a saúde</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="introducao2">
-          2 -  Tipos de equipes de saúde
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
           </span>
+        </div>
 
-          <span className="subintroducao1">
+        <span className="introducao2">2 - Tipos de equipes de saúde</span>
+
+        <span className="subintroducao1">
           Equipe de saúde da família fluvial
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span className="resumoacoes">
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </span>
+        </div>
 
-          <span className="subintroducao2">
+        <span className="subintroducao2">
           Equipe de saúde da família ribeirinha
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+          <span className="resumoacoes">
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="subintroducao3">
-          Equipe de Consultório na Rua
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
           </span>
+        </div>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+        <span className="subintroducao3">Equipe de Consultório na Rua</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+          </span>
+        </div>
 
-          <span className="subintroducao4">
+        <span className="subintroducao4">
           Equipe de Atenção Básica Prisional
-          </span>
+        </span>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="subintroducao5">
-          Modalidades:
           </span>
+        </div>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span className="subintroducao5">Modalidades:</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="introducao3">
-          3 -  Redes de atenção à saúde
-          </span>
-
-          <span className="subintroducao6">
-          Unidade básica de saúde (UBS)
-          </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </span>
+        </div>
 
-          <span className="subintroducao7">
+        <span className="introducao3">3 - Redes de atenção à saúde</span>
+
+        <span className="subintroducao6">Unidade básica de saúde (UBS)</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </span>
+        </div>
+
+        <span className="subintroducao7">
           Unidade de pronto-atendimento (UPA)
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+          <span className="resumoacoes">
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
-
-          <span className="subintroducao8">
-          Unidade Hospitalar (UH)
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
           </span>
+        </div>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+        <span className="subintroducao8">Unidade Hospitalar (UH)</span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span className="resumoacoes">
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+          </span>
+        </div>
 
-          <span className="subintroducao9">
+        <span className="subintroducao9">
           Centro de atenção pisicossocial (CAPS)
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+          <span className="resumoacoes">
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </div>
+            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui
+            impedit omnis est beatae dolores aut modi voluptatem aut dolor
+            veniam? In iure molestiae aut quidem aspernatur a illum impedit aut
+            cumque corrupti. Aut repellat rerum aut officia rerum rem sunt
+            labore ut placeat quasi id dolorem quia sed ipsam error ut rerum
+            accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a
+            voluptas nesciunt hic libero aperiam ut quia perspiciatis. Et nulla
+            odio ut unde quos et internos expedita est commodi incidunt At
+            praesentium optio quo saepe deleniti. Ea eius autem ut maxime
+            perferendis eos necessitatibus labore et corrupti ducimus quo
+            officia officia. Eos omnis beatae id dolorem similique id
+            voluptatibus sapiente ut dignissimos voluptatum. Ea sint similique
+            aut velit laborum et enim fugiat est totam illo. Et minima
+            laudantium ut minima beatae qui omnis quod est soluta exercitationem
+            rem totam vitae.
+          </span>
+        </div>
 
-          <span className="subintroducao10">
+        <span className="subintroducao10">
           Centro de referência da assistência social (CRAS)
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
+          <span className="resumoacoes">
+            Ea eius autem ut maxime perferendis eos necessitatibus labore et
+            corrupti ducimus quo officia officia. Eos omnis beatae id dolorem
+            similique id voluptatibus sapiente ut dignissimos voluptatum. Ea
+            sint similique aut velit laborum et enim fugiat est totam illo. Et
+            minima laudantium ut minima beatae qui omnis quod est soluta
+            exercitationem rem totam vitae.
+          </span>
+        </div>
 
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            </span>
-          </div>
-
-          <span className="subintroducao11">
+        <span className="subintroducao11">
           Núcleo de atendimento familiar sistêmico (NASF)
+        </span>
+
+        <div className="blocotxt">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-
-          <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span className="resumoacoes">
-           
-            </span>
-          </div>
-
+          <span className="resumoacoes"></span>
+        </div>
       </main>
 
       <div>
@@ -666,9 +980,7 @@ export default function ESF() {
           }}
         />
 
-        <span className="textocolaboracoes">
-          Colaborações
-        </span>
+        <span className="textocolaboracoes">Colaborações</span>
 
         <span
           style={{
@@ -789,7 +1101,7 @@ export default function ESF() {
           font-size: 24px;
           line-height: 32px;
           letter-spacing: -0.019em;
-          color: #720DB0;
+          color: #720db0;
           text-decoration: underline;
         }
         .acoesnav {
@@ -847,7 +1159,7 @@ export default function ESF() {
           font-weight: bold;
           text-decoration: underline;
           font-size: 30px;
-          color: #E07612;
+          color: #e07612;
         }
         .introducao {
           position: absolute;
@@ -856,7 +1168,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .introducao1 {
           position: absolute;
@@ -865,7 +1177,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .introducao2 {
           position: absolute;
@@ -874,7 +1186,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .introducao3 {
           position: absolute;
@@ -883,7 +1195,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao1 {
           position: absolute;
@@ -892,7 +1204,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao2 {
           position: absolute;
@@ -901,7 +1213,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao3 {
           position: absolute;
@@ -910,7 +1222,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao4 {
           position: absolute;
@@ -919,7 +1231,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao5 {
           position: absolute;
@@ -928,7 +1240,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao6 {
           position: absolute;
@@ -937,7 +1249,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao7 {
           position: absolute;
@@ -946,7 +1258,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao8 {
           position: absolute;
@@ -955,7 +1267,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao9 {
           position: absolute;
@@ -964,7 +1276,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao10 {
           position: absolute;
@@ -973,7 +1285,7 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
         .subintroducao11 {
           position: absolute;
@@ -982,22 +1294,22 @@ export default function ESF() {
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
-          color: #E07612;
+          color: #e07612;
         }
-        .resumoacoes{
+        .resumoacoes {
           position: relative;
           left: 200px;
           top: 250px;
           width: 30%;
-          font-family: 'Arial';
+          font-family: "Arial";
           font-style: normal;
           font-weight: 700;
           font-size: 22px;
           line-height: 181.53%;
           letter-spacing: -0.019em;
-          color: #635D5D;
+          color: #635d5d;
         }
-        .blocotxt{
+        .blocotxt {
           width: 65%;
         }
         .textocolaboracoes {
@@ -1018,5 +1330,5 @@ export default function ESF() {
         }
       `}</style>
     </>
-  )
+  );
 }

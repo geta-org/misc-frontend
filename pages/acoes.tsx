@@ -1,31 +1,31 @@
-import Head from "next/head"
-import Image from "next/image"
-import { Button } from "react-bootstrap"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
-import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoAcoes from "../public/TelaHome/Acoes.png"
-import Usuarioft from "../public/Outros/usuarioft.jpg"
-import AtencaoPrisional from "../public/TelaAcoes/atencaoprisional.png"
-import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png"
-import SusColaboracoes from "../public/TelaHome/susColaboracoes.png"
-import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png"
-import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png"
-
+import Head from "next/head";
+import Image from "next/image";
+import { Button } from "react-bootstrap";
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png";
+import LogoGETA from "../public/Outros/logoGETA.png";
+import LogoAcoes from "../public/TelaHome/Acoes.png";
+import Usuarioft from "../public/Outros/usuarioft.jpg";
+import AtencaoPrisional from "../public/TelaAcoes/atencaoprisional.png";
+import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png";
+import SusColaboracoes from "../public/TelaHome/susColaboracoes.png";
+import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png";
+import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png";
 
 export default function Acoes() {
   return (
     <>
       <Head>
         <title>Ações Desenvolvidas</title>
-        <link rel="icon" href="/Outros/favicon.ico"/>
+        <link rel="icon" href="/Outros/favicon.ico" />
       </Head>
+
       <main className="main">
         <span className="navbar">
           <a href="/sus">
             <span className="susnav">SUS</span>
           </a>
           <a href="/esf">
-           <span className="esfnav">Estratégia Saúde da Família</span>
+            <span className="esfnav">Estratégia Saúde da Família</span>
           </a>
           <a href="/acoes">
             <span className="acoesnav">Ações Desenvolvidas</span>
@@ -89,36 +89,41 @@ export default function Acoes() {
           </span>
         </header>
         <span
-            style={{
-              display: "flex",
-              width: "47%",
-              height: "auto",
-              margin: "auto",
-              marginTop: "650px",
-            }}
-          >
-            <Image alt="Logo MiscWeb" src={LogoAcoes} />
-          </span>
-          <span className="tituloacoes">
-            Ações Desenvolvidas junto à Comunidade
-          </span>
+          style={{
+            display: "flex",
+            width: "47%",
+            height: "auto",
+            margin: "auto",
+            marginTop: "650px",
+          }}
+        >
+          <Image alt="Logo MiscWeb" src={LogoAcoes} />
+        </span>
+        <span className="tituloacoes">
+          Ações Desenvolvidas junto à Comunidade
+        </span>
 
-          <span className="introducao">
-          Médico na Atenção Primária:
-          </span>
+        <span className="introducao">Médico na Atenção Primária:</span>
 
-          
         <div className="blocotxt">
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
           <span className="resumoacoes">
-                  O médico generalista ou especialista em Medicina de Família e Comunidade realiza consultas clínicas
-            na Unidade Básica de Saúde, domicílios e/ou demais espaços comunitários
-            (escolas, associações,entre outros).
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-                 Em conformidade com protocolos, diretrizes clínicas e terapêuticas,
-            bem como outras normativas técnicas estabelecidas pelos gestores (federal, estadual, municipal), observadas as disposições legais da profissão.
+            O médico generalista ou especialista em Medicina de Família e
+            Comunidade realiza consultas clínicas na Unidade Básica de Saúde,
+            domicílios e/ou demais espaços comunitários (escolas,
+            associações,entre outros).
+            <br />
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Em conformidade com protocolos, diretrizes clínicas e terapêuticas,
+            bem como outras normativas técnicas estabelecidas pelos gestores
+            (federal, estadual, municipal), observadas as disposições legais da
+            profissão.
           </span>
         </div>
 
@@ -134,11 +139,10 @@ export default function Acoes() {
               marginTop: "7.5px",
             }}
           >
-             <a href="/sus">
-            <Image alt="Logo SUS" src={AtencaoPrisional} />
+            <a href="/sus">
+              <Image alt="Logo SUS" src={AtencaoPrisional} />
             </a>
           </span>
-  
         </div>
 
         <span className="titulo2">Equipe de Atenção Básica Prisional</span>
@@ -155,7 +159,6 @@ export default function Acoes() {
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
           </span>
-
         </div>
 
         <span className="titulo3">Equipe de Atenção Básica Prisional</span>
@@ -172,9 +175,8 @@ export default function Acoes() {
           >
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
           </span>
-
         </div>
-        
+
         <span className="titulo4"></span>
         <div className="card4">
           <span
@@ -189,7 +191,6 @@ export default function Acoes() {
           >
             <Image alt="Logo SUS" src={AtencaoPrisional} />
           </span>
-  
         </div>
 
         <span className="titulo5"></span>
@@ -206,7 +207,6 @@ export default function Acoes() {
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
           </span>
-
         </div>
 
         <span className="titulo6"></span>
@@ -223,7 +223,6 @@ export default function Acoes() {
           >
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
           </span>
-  
         </div>
 
         <span className="titulo7"></span>
@@ -240,7 +239,6 @@ export default function Acoes() {
           >
             <Image alt="Logo SUS" src={AtencaoPrisional} />
           </span>
-  
         </div>
 
         <span className="titulo8"></span>
@@ -256,7 +254,6 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
-
           </span>
         </div>
 
@@ -275,7 +272,6 @@ export default function Acoes() {
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
           </span>
         </div>
-
       </main>
 
       <div>
@@ -288,9 +284,7 @@ export default function Acoes() {
           }}
         />
 
-        <span className="textocolaboracoes">
-          Colaborações
-        </span>
+        <span className="textocolaboracoes">Colaborações</span>
 
         <div
           style={{
@@ -728,5 +722,5 @@ export default function Acoes() {
         }
       `}</style>
     </>
-  )
+  );
 }

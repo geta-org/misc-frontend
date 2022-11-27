@@ -211,7 +211,7 @@ export default function Home() {
             Artigos para se aprofundar em
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "red" }}>SUS:</span>
+            <span style={{ color: "#251396" }}>SUS:</span>
           </div>
         </span>
 

@@ -739,9 +739,11 @@ export default function ESF() {
           background-color: #f0ffff;
         }
         .navbar {
-          position: absolute;
+          position: fixed;
+          display: flex;
+          z-index: 2;
           width: 100%;
-          height: 2.7%;
+          height: 0.355%;
           background-color: #d0ffff;
         }
         .cadastrobar {

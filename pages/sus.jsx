@@ -983,9 +983,11 @@ export default function SUS() {
           background-color: #f0ffff;
         }
         .navbar {
-          position: absolute;
+          position: fixed;
+          display: flex;
           width: 100%;
-          height: 2.7%;
+          height: 9.9%;
+          z-index: 2;
           background-color: #d0ffff;
         }
         .cadastrobar {

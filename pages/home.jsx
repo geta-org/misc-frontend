@@ -348,9 +348,10 @@ export default function Home() {
           background-color: #f0ffff;
         }
         .navbar {
-          position: absolute;
+          position: fixed;
           width: 100%;
-          height: 2.7%;
+          z-index: 2;
+          height: 9.9%;
           background-color: #d0ffff;
         }
         .cadastrobar {

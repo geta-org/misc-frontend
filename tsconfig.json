@@ -19,11 +19,11 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/index.jsx",
-    "pages/sus.jsx",
-    "pages/home.jsx",
-    "pages/esf.jsx",
-    "pages/acoes.jsx"
+    "pages/index.tsx",
+    "pages/sus.tsx",
+    "pages/home.tsx",
+    "pages/esf.tsx",
+    "pages/acoes.tsx"
   ],
   "exclude": ["node_modules"]
 }

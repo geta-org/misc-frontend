@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Image from "next/future/image"
 import LogoMisc from "../public/MiscLogos/MiscWebLogoPreta.jpg"
-import videoMisc from "../public/MiscLogos/MiscWebVideo.mp4"
 
 export default function Index() {
   return (

@@ -1,19 +1,17 @@
-import Head from "next/head"
-import Image from "next/image"
-import { Button } from "react-bootstrap"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
-import LogoGETA from "../public/Outros/logoGETA.png"
-import Usuarioft from "../public/Outros/usuarioft.jpg"
-import LogoSUS from "../public/TelaHome/susHome.png"
-import LogoESF from "../public/TelaHome/esfHome.png"
-import Acoes from "../public/TelaHome/Acoes.png"
-import LogoDrive from "../public/TelaHome/drive.png"
-import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png"
-import SusColaboracoes from "../public/TelaHome/susColaboracoes.png"
-import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png"
-import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png"
-
-
+import Head from "next/head";
+import Image from "next/image";
+import { Button } from "react-bootstrap";
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png";
+import LogoGETA from "../public/Outros/logoGETA.png";
+import Usuarioft from "../public/Outros/usuarioft.jpg";
+import LogoSUS from "../public/TelaHome/susHome.png";
+import LogoESF from "../public/TelaHome/esfHome.png";
+import Acoes from "../public/TelaHome/Acoes.png";
+import LogoDrive from "../public/TelaHome/drive.png";
+import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png";
+import SusColaboracoes from "../public/TelaHome/susColaboracoes.png";
+import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png";
+import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png";
 
 export default function Home() {
   return (
@@ -23,25 +21,25 @@ export default function Home() {
         <link rel="icon" href="/Outros/favicon.ico" />
       </Head>
       <main className="main">
-        <navbar className="navbar">
+        <div className="navbar">
           <a href="/sus">
-            <sus className="susnav">SUS</sus>
+            <div className="susnav">SUS</div>
           </a>
           <a href="/esf">
-            <esf className="esfnav">Estratégia Saúde da Família</esf>
+            <div className="esfnav">Estratégia Saúde da Família</div>
           </a>
           <a href="/acoes">
-            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+            <div className="acoesnav">Ações Desenvolvidas</div>
           </a>
-        </navbar>
+        </div>
 
-        <cadastrobar className="cadastrobar">
+        <div className="cadastrobar">
           <Button className="btcastatro">Cadastro</Button>
           <Button className="btentrar">Entrar</Button>
-        </cadastrobar>
+        </div>
 
         <header className="header">
-          <logomisc
+          <div
             style={{
               display: "flex",
               width: "47.1%",
@@ -53,8 +51,8 @@ export default function Home() {
             <a href="/home">
               <Image alt="Logo MiscWeb" src={LogoMisc} />
             </a>
-          </logomisc>
-          <logogeta
+          </div>
+          <div
             style={{
               position: "absolute",
               width: "180px",
@@ -64,8 +62,8 @@ export default function Home() {
             }}
           >
             <Image alt="Logo GETA" src={LogoGETA} />
-          </logogeta>
-          <usuarioft
+          </div>
+          <div
             style={{
               width: "7%",
               height: "auto",
@@ -77,9 +75,9 @@ export default function Home() {
             }}
           >
             <Image alt="Imagem Usuário" src={Usuarioft} />
-          </usuarioft>
+          </div>
 
-          <titulo className="titulo">
+          <div className="titulo">
             Sua plataforma de aprendizado digital, para o<br />
             <span className="letracor"> M</span>
             <span className="titulocor">ódulo de</span>
@@ -89,19 +87,19 @@ export default function Home() {
             <span className="titulocor">aúde na</span>
             <span className="letracor"> C</span>
             <span className="titulocor">omunidade</span>
-          </titulo>
+          </div>
         </header>
 
-        <subtitulo className="subtitulo">
+        <div className="subtitulo">
           Selecione uma das
           <span className="palavrabold"> páginas</span> de educação
           <span className="palavrabold"> médica</span>, disponíveis abaixo:
-        </subtitulo>
+        </div>
 
-        <titulosus className="titulosus">Sistema Único de Saúde</titulosus>
+        <div className="titulosus">Sistema Único de Saúde</div>
         <a href="/sus">
-          <cardsus className="cardsus">
-            <logosus
+          <div className="cardsus">
+            <div
               style={{
                 display: "flex",
                 position: "relative",
@@ -114,27 +112,27 @@ export default function Home() {
               <a href="/sus">
                 <Image alt="Logo SUS" src={LogoSUS} />
               </a>
-            </logosus>
+            </div>
 
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            <resumosus className="resumosus">
+            <div className="resumosus">
               <a href="/sus">
                 É um dos maiores e mais complexos sistemas de saúde pública do
                 mundo, abrangendo desde o simples atendimento para aferição da
                 pressão arterial, por meio da Atenção Primária, até o
                 transplante de órgãos.
               </a>
-            </resumosus>
-          </cardsus>
+            </div>
+          </div>
         </a>
 
-        <tituloesf className="tituloesf">Estratégia Saúde da Família</tituloesf>
         <a href="/esf">
-          <cardesf className="cardesf">
-            <logoesf
+          <div className="tituloesf">Estratégia Saúde da Família</div>
+          <div className="cardesf">
+            <div
               style={{
                 display: "flex",
                 position: "absolute",
@@ -147,26 +145,26 @@ export default function Home() {
               <a href="/esf">
                 <Image alt="Logo ESF" src={LogoESF} />
               </a>
-            </logoesf>
+            </div>
 
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            <resumoesf className="resumoesf">
+            <div className="resumoesf">
               <a href="/esf">
                 Visa à reorganização da atenção primária no País, de acordo com
                 os preceitos do SUS. É uma estratégia de expansão, qualificação
                 e consolidação da atenção primária.
               </a>
-            </resumoesf>
-          </cardesf>
+            </div>
+          </div>
         </a>
 
-        <tituloacoes className="tituloacoes">Ações Desenvolvidas</tituloacoes>
         <a href="/acoes">
-          <cardacoes className="cardacoes">
-            <logoacoes
+          <div className="tituloacoes">Ações Desenvolvidas</div>
+          <div className="cardacoes">
+            <div
               style={{
                 display: "flex",
                 position: "absolute",
@@ -179,21 +177,21 @@ export default function Home() {
               <a href="/acoes">
                 <Image alt="Logo Acoes" src={Acoes} />
               </a>
-            </logoacoes>
+            </div>
 
-            <resumoacoes className="resumoacoes">
+            <div className="resumoacoes">
               <a href="/acoes">
                 O médico generalista ou especialista em Medicina de Família e
                 Comunidade realiza consultas clínicas na Unidade Básica de
                 Saúde, domicílios e/ou demais espaços comunitários (escolas,
                 associações, entre outros).
               </a>
-            </resumoacoes>
-          </cardacoes>
+            </div>
+          </div>
         </a>
 
-        <carddrive1 className="cardDrive1">
-          <logodrive
+        <span className="cardDrive1">
+          <div
             style={{
               display: "flex",
               position: "absolute",
@@ -207,18 +205,18 @@ export default function Home() {
             <a href="https://conectesus-paciente.saude.gov.br/">
               <Image alt="Logo Acoes" src={LogoDrive} />
             </a>
-          </logodrive>
+          </div>
 
-          <titulodrive1 className="titulodrive1">
+          <div className="titulodrive1">
             Artigos para se aprofundar em
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span style={{ color: "#251396" }}>SUS:</span>
-          </titulodrive1>
-        </carddrive1>
+          </div>
+        </span>
 
-        <carddrive2 className="cardDrive2">
-          <logodrive
+        <div className="cardDrive2">
+          <div
             style={{
               display: "flex",
               position: "absolute",
@@ -231,18 +229,18 @@ export default function Home() {
             <a href="https://aps.saude.gov.br/ape/esf/">
               <Image alt="Logo Acoes" src={LogoDrive} />
             </a>
-          </logodrive>
+          </div>
 
-          <titulodrive2 className="titulodrive2">
+          <div className="titulodrive2">
             Artigos para se aprofundar em
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span style={{ color: "#E07612" }}>ESF:</span>
-          </titulodrive2>
-        </carddrive2>
+          </div>
+        </div>
 
-        <carddrive3 className="cardDrive3">
-          <logodrive
+        <div className="cardDrive3">
+          <div
             style={{
               display: "flex",
               position: "absolute",
@@ -255,17 +253,17 @@ export default function Home() {
             <a href="https://slideplayer.com.br/slide/381330/">
               <Image alt="Logo Acoes" src={LogoDrive} />
             </a>
-          </logodrive>
+          </div>
 
-          <titulodrive3 className="titulodrive3">
+          <div className="titulodrive3">
             Artigos para se aprofundar em
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span style={{ color: "#7C2929" }}>Ações à Comunidade:</span>
-          </titulodrive3>
-        </carddrive3>
+          </div>
+        </div>
       </main>
 
-      <colaboracoes>
+      <div>
         <hr
           style={{
             position: "absolute",
@@ -275,11 +273,9 @@ export default function Home() {
           }}
         />
 
-        <textocolaboracoes className="textocolaboracoes">
-          Colaborações
-        </textocolaboracoes>
+        <div className="textocolaboracoes">Colaborações</div>
 
-        <misclogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -292,9 +288,9 @@ export default function Home() {
           <a href="">
             <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
           </a>
-        </misclogo>
+        </div>
 
-        <suslogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -307,9 +303,9 @@ export default function Home() {
           <a href="https://conectesus.saude.gov.br/">
             <Image alt="Logo SUS" src={SusColaboracoes} />
           </a>
-        </suslogo>
+        </div>
 
-        <cesupalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -322,9 +318,9 @@ export default function Home() {
           <a href="https://www.cesupa.br/#">
             <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
           </a>
-        </cesupalogo>
+        </div>
 
-        <getalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -337,8 +333,8 @@ export default function Home() {
           <a href="https://geta.omnicesupa.com/">
             <Image alt="Logo GETA" src={GetaColaboracoes} />
           </a>
-        </getalogo>
-      </colaboracoes>
+        </div>
+      </div>
 
       <style jsx>{`
         .main {

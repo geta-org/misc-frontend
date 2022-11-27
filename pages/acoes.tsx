@@ -20,25 +20,25 @@ export default function Acoes() {
         <link rel="icon" href="/Outros/favicon.ico"/>
       </Head>
       <main className="main">
-        <navbar className="navbar">
+        <span className="navbar">
           <a href="/sus">
-            <sus className="susnav">SUS</sus>
+            <span className="susnav">SUS</span>
           </a>
           <a href="/esf">
-           <esf className="esfnav">Estratégia Saúde da Família</esf>
+           <span className="esfnav">Estratégia Saúde da Família</span>
           </a>
           <a href="/acoes">
-            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+            <span className="acoesnav">Ações Desenvolvidas</span>
           </a>
-        </navbar>
+        </span>
 
-        <cadastrobar className="cadastrobar">
+        <span className="cadastrobar">
           <Button className="btcastatro">Cadastro</Button>
           <Button className="btentrar">Entrar</Button>
-        </cadastrobar>
+        </span>
 
         <header className="header">
-          <logomisc
+          <span
             style={{
               display: "flex",
               width: "47%",
@@ -50,8 +50,8 @@ export default function Acoes() {
             <a href="/home">
               <Image alt="Logo MiscWeb" src={LogoMisc} />
             </a>
-          </logomisc>
-          <logogeta
+          </span>
+          <span
             style={{
               position: "absolute",
               width: "180px",
@@ -61,8 +61,8 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo GETA" src={LogoGETA} />
-          </logogeta>
-          <usuarioft
+          </span>
+          <span
             style={{
               width: "7%",
               height: "auto",
@@ -74,9 +74,9 @@ export default function Acoes() {
             }}
           >
             <Image alt="Imagem Usuário" src={Usuarioft} />
-          </usuarioft>
+          </span>
 
-          <titulo className="titulo">
+          <span className="titulo">
             Sua plataforma de aprendizado digital, para o<br />
             <span className="letracor"> M</span>
             <span className="titulocor">ódulo de</span>
@@ -86,9 +86,9 @@ export default function Acoes() {
             <span className="titulocor">aúde na</span>
             <span className="letracor"> C</span>
             <span className="titulocor">omunidade</span>
-          </titulo>
+          </span>
         </header>
-        <logoacoes
+        <span
             style={{
               display: "flex",
               width: "47%",
@@ -98,20 +98,20 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo MiscWeb" src={LogoAcoes} />
-          </logoacoes>
-          <tituloacoes className="tituloacoes">
+          </span>
+          <span className="tituloacoes">
             Ações Desenvolvidas junto à Comunidade
-          </tituloacoes>
+          </span>
 
-          <introducao className="introducao">
+          <span className="introducao">
           Médico na Atenção Primária:
-          </introducao>
+          </span>
 
           
         <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
                   O médico generalista ou especialista em Medicina de Família e Comunidade realiza consultas clínicas
             na Unidade Básica de Saúde, domicílios e/ou demais espaços comunitários
             (escolas, associações,entre outros).
@@ -119,12 +119,12 @@ export default function Acoes() {
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
                  Em conformidade com protocolos, diretrizes clínicas e terapêuticas,
             bem como outras normativas técnicas estabelecidas pelos gestores (federal, estadual, municipal), observadas as disposições legais da profissão.
-          </resumoacoes>
+          </span>
         </div>
 
-        <titulo1 className="titulo1">Equipe de Atenção Básica Prisional</titulo1>
-        <card1 className="card1">
-          <img1
+        <span className="titulo1">Equipe de Atenção Básica Prisional</span>
+        <div className="card1">
+          <span
             style={{
               display: "flex",
               position: "relative",
@@ -137,13 +137,13 @@ export default function Acoes() {
              <a href="/sus">
             <Image alt="Logo SUS" src={AtencaoPrisional} />
             </a>
-          </img1>
+          </span>
   
-        </card1>
+        </div>
 
-        <titulo2 className="titulo2">Equipe de Atenção Básica Prisional</titulo2>
-        <card2 className="card2">
-          <img2
+        <span className="titulo2">Equipe de Atenção Básica Prisional</span>
+        <div className="card2">
+          <span
             style={{
               display: "flex",
               position: "relative",
@@ -154,13 +154,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
-          </img2>
+          </span>
 
-        </card2>
+        </div>
 
-        <titulo3 className="titulo3">Equipe de Atenção Básica Prisional</titulo3>
-        <card3 className="card3">
-          <img3
+        <span className="titulo3">Equipe de Atenção Básica Prisional</span>
+        <div className="card3">
+          <span
             style={{
               display: "flex",
               position: "relative",
@@ -171,13 +171,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
-          </img3>
+          </span>
 
-        </card3>
+        </div>
         
-        <titulo4 className="titulo4"></titulo4>
-        <card4 className="card4">
-          <img4
+        <span className="titulo4"></span>
+        <div className="card4">
+          <span
             style={{
               display: "flex",
               position: "absolute",
@@ -188,13 +188,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo SUS" src={AtencaoPrisional} />
-          </img4>
+          </span>
   
-        </card4>
+        </div>
 
-        <titulo5 className="titulo5"></titulo5>
-        <card5 className="card5">
-          <img5
+        <span className="titulo5"></span>
+        <div className="card5">
+          <span
             style={{
               display: "flex",
               position: "absolute",
@@ -205,13 +205,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
-          </img5>
+          </span>
 
-        </card5>
+        </div>
 
-        <titulo6 className="titulo6"></titulo6>
-        <card6 className="card6">
-          <img6
+        <span className="titulo6"></span>
+        <div className="card6">
+          <span
             style={{
               display: "flex",
               position: "relative",
@@ -222,13 +222,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
-          </img6>
+          </span>
   
-        </card6>
+        </div>
 
-        <titulo7 className="titulo7"></titulo7>
-        <card7 className="card7">
-          <img7
+        <span className="titulo7"></span>
+        <div className="card7">
+          <span
             style={{
               display: "flex",
               position: "absolute",
@@ -239,13 +239,13 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo SUS" src={AtencaoPrisional} />
-          </img7>
+          </span>
   
-        </card7>
+        </div>
 
-        <titulo8 className="titulo8"></titulo8>
-        <card8 className="card8">
-          <img8
+        <span className="titulo8"></span>
+        <div className="card8">
+          <span
             style={{
               display: "flex",
               position: "absolute",
@@ -257,12 +257,12 @@ export default function Acoes() {
           >
             <Image alt="Logo ESF" src={AtencaoPrisional} />
 
-          </img8>
-        </card8>
+          </span>
+        </div>
 
-        <titulo9 className="titulo9"></titulo9>
-        <card9 className="card9">
-          <img9
+        <span className="titulo9"></span>
+        <div className="card9">
+          <span
             style={{
               display: "flex",
               position: "absolute",
@@ -273,12 +273,12 @@ export default function Acoes() {
             }}
           >
             <Image alt="Logo Acoes" src={AtencaoPrisional} />
-          </img9>
-        </card9>
+          </span>
+        </div>
 
       </main>
 
-      <colaboracoes>
+      <div>
         <hr
           style={{
             position: "absolute",
@@ -288,11 +288,11 @@ export default function Acoes() {
           }}
         />
 
-        <textocolaboracoes className="textocolaboracoes">
+        <span className="textocolaboracoes">
           Colaborações
-        </textocolaboracoes>
+        </span>
 
-        <misclogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -305,9 +305,9 @@ export default function Acoes() {
           <a href="">
             <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
           </a>
-        </misclogo>
+        </div>
 
-        <suslogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -320,9 +320,9 @@ export default function Acoes() {
           <a href="https://conectesus.saude.gov.br/">
             <Image alt="Logo SUS" src={SusColaboracoes} />
           </a>
-        </suslogo>
+        </div>
 
-        <cesupalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -335,9 +335,9 @@ export default function Acoes() {
           <a href="https://www.cesupa.br/#">
             <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
           </a>
-        </cesupalogo>
+        </div>
 
-        <getalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -350,8 +350,8 @@ export default function Acoes() {
           <a href="https://geta.omnicesupa.com/">
             <Image alt="Logo GETA" src={GetaColaboracoes} />
           </a>
-        </getalogo>
-      </colaboracoes>
+        </div>
+      </div>
 
       <style jsx>{`
         .main {

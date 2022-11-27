@@ -1,27 +1,26 @@
-import Head from "next/head"
-import Image from "next/image"
-import { Button } from "react-bootstrap"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
-import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoSUS from "../public/TelaSUS/susTela.png"
-import Imagem1 from "../public/TelaSUS/familiafluvial.png"
-import Imagem2 from "../public/TelaSUS/familiaribeirinha.jpg"
-import Imagem3 from "../public/TelaSUS/consultorionarua.jpg"
-import Imagem4 from "../public/TelaSUS/basicaprisional1.png"
-import Imagem5 from "../public/TelaSUS/basicaprisional2.jpg"
-import Imagem6 from "../public/TelaSUS/basicadesaude.jpg"
-import Imagem7 from "../public/TelaSUS/UPA.jpg"
-import Imagem8 from "../public/TelaSUS/unidadehospitalar.png"
-import Imagem9 from "../public/TelaSUS/CAPS.jpg"
-import Imagem10 from "../public/TelaSUS/CRAS.jpg"
-import Imagem11 from "../public/TelaSUS/NASF.jpg"
-import Usuarioft from "../public/Outros/usuarioft.jpg"
+import Head from "next/head";
+import Image from "next/image";
+import { Button } from "react-bootstrap";
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png";
+import LogoGETA from "../public/Outros/logoGETA.png";
+import LogoSUS from "../public/TelaSUS/susTela.png";
+import Imagem1 from "../public/TelaSUS/familiafluvial.png";
+import Imagem2 from "../public/TelaSUS/familiaribeirinha.jpg";
+import Imagem3 from "../public/TelaSUS/consultorionarua.jpg";
+import Imagem4 from "../public/TelaSUS/basicaprisional1.png";
+import Imagem5 from "../public/TelaSUS/basicaprisional2.jpg";
+import Imagem6 from "../public/TelaSUS/basicadesaude.jpg";
+import Imagem7 from "../public/TelaSUS/UPA.jpg";
+import Imagem8 from "../public/TelaSUS/unidadehospitalar.png";
+import Imagem9 from "../public/TelaSUS/CAPS.jpg";
+import Imagem10 from "../public/TelaSUS/CRAS.jpg";
+import Imagem11 from "../public/TelaSUS/NASF.jpg";
+import Usuarioft from "../public/Outros/usuarioft.jpg";
 import questions from "../questions.json";
-import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png"
-import SusColaboracoes from "../public/TelaHome/susColaboracoes.png"
-import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png"
-import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png"
-
+import MiscWebColaboracoes from "../public/TelaHome/miscwebColaboracoes.png";
+import SusColaboracoes from "../public/TelaHome/susColaboracoes.png";
+import CesupaColaboracoes from "../public/TelaHome/cesupaColaboracoes.png";
+import GetaColaboracoes from "../public/TelaHome/getaColaboracoes.png";
 
 export default function SUS() {
   return (
@@ -31,25 +30,25 @@ export default function SUS() {
         <link rel="icon" href="/Outros/favicon.ico" />
       </Head>
       <main className="main">
-        <navbar className="navbar">
+        <div className="navbar">
           <a href="/sus">
-            <sus className="susnav">SUS</sus>
+            <div className="susnav">SUS</div>
           </a>
           <a href="/esf">
-            <esf className="esfnav">Estratégia Saúde da Família</esf>
+            <div className="esfnav">Estratégia Saúde da Família</div>
           </a>
           <a href="/acoes">
-            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+            <div className="acoesnav">Ações Desenvolvidas</div>
           </a>
-        </navbar>
+        </div>
 
-        <cadastrobar className="cadastrobar">
+        <div className="cadastrobar">
           <Button className="btcastatro">Cadastro</Button>
           <Button className="btentrar">Entrar</Button>
-        </cadastrobar>
+        </div>
 
         <header className="header">
-          <logomisc
+          <div
             style={{
               display: "flex",
               width: "47%",
@@ -61,8 +60,8 @@ export default function SUS() {
             <a href="/home">
               <Image alt="Logo MiscWeb" src={LogoMisc} />
             </a>
-          </logomisc>
-          <logogeta
+          </div>
+          <div
             style={{
               position: "absolute",
               width: "180px",
@@ -72,8 +71,8 @@ export default function SUS() {
             }}
           >
             <Image alt="Logo GETA" src={LogoGETA} />
-          </logogeta>
-          <usuarioft
+          </div>
+          <div
             style={{
               width: "7%",
               height: "auto",
@@ -85,9 +84,9 @@ export default function SUS() {
             }}
           >
             <Image alt="Imagem Usuário" src={Usuarioft} />
-          </usuarioft>
+          </div>
 
-          <titulo className="titulo">
+          <div className="titulo">
             Sua plataforma de aprendizado digital, para o<br />
             <span className="letracor"> M</span>
             <span className="titulocor">ódulo de</span>
@@ -97,9 +96,9 @@ export default function SUS() {
             <span className="titulocor">aúde na</span>
             <span className="letracor"> C</span>
             <span className="titulocor">omunidade</span>
-          </titulo>
+          </div>
         </header>
-        <logosus
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -109,20 +108,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={LogoSUS} />
-        </logosus>
+        </div>
 
-        <titulo className="tituloacoes">
-          Sistema Único de Saúde (SUS)
-        </titulo>
+        <div className="tituloacoes">Sistema Único de Saúde (SUS)</div>
 
-        <introducao className="introducao">Introdução:</introducao>
+        <div className="introducao">Introdução:</div>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             É um dos maiores e mais complexos sistemas de saúde pública do
             mundo, abrangendo desde o simples atendimento para aferição da
             pressão arterial, por meio da Atenção Primária, até o transplante de
@@ -136,19 +133,17 @@ export default function SUS() {
             A atenção integral à saúde passou a ser um direito de todos os
             brasileiros, desde a gestação e por toda a vida, com foco na saúde
             com qualidade de vida, visando a prevenção e a promoção da saúde.
-          </resumoacoes>
+          </span>
         </div>
 
-        <introducao className="introducao1">
-          1 - Atenção primária a saúde
-        </introducao>
+        <div className="introducao1">1 - Atenção primária a saúde</div>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             <br />
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -182,23 +177,19 @@ export default function SUS() {
             orientar-se pelos princípios da universalidade, da acessibilidade,
             da continuidade do cuidado, da integralidade da atenção, da
             responsabilização, da humanização e da equidade.
-          </resumoacoes>
+          </span>
         </div>
 
-        <introducao className="introducao2">
-          2 - Tipos de equipes de saúde
-        </introducao>
+        <div className="introducao2">2 - Tipos de equipes de saúde</div>
 
-        <introducao className="subintroducao1">
-          Equipe de saúde da família fluvial
-        </introducao>
+        <div className="subintroducao1">Equipe de saúde da família fluvial</div>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             <br />
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -238,10 +229,10 @@ export default function SUS() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem1
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -251,18 +242,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem1} />
-        </imagem1>
+        </div>
 
-        <introducao className="subintroducao2">
+        <span className="subintroducao2">
           Equipe de saúde da família ribeirinha
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             As equipes de Saúde da Família Ribeirinhas e as Unidades Básicas de
             Saúde Fluviais estão direcionadas para o atendimento da população
             ribeirinha da Amazônia Legal e Pantanal Sul-Mato-Grossense,
@@ -292,10 +283,10 @@ export default function SUS() {
             máximo de Agentes Comunitários de Saúde é de 24. Nas regiões
             endêmicas, por exemplo, ainda é possível incorporar o microscopista
             à equipe.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem2
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -305,18 +296,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem2} />
-        </imagem2>
+        </div>
 
-        <introducao className="subintroducao3">
+        <span className="subintroducao3">
           Equipe de Consultório na Rua
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             Chamamos de Consultório na Rua equipes multiprofissionais que
             desenvolvem ações integrais de saúde frente às necessidades dessa
             população. Elas devem realizar suas atividades de forma itinerante
@@ -341,10 +332,10 @@ export default function SUS() {
             funcionamento deverá ser adequado às demandas das pessoas em
             situação de rua, podendo ocorrer em período diurno e/ou noturno, em
             todos os dias da semana.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem3
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -354,18 +345,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem3} />
-        </imagem3>
+        </div>
 
-        <introducao className="subintroducao4">
+        <span className="subintroducao4">
           Equipe de Atenção Básica Prisional
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             As Equipes de Atenção Básica Prisional (EABP) são equipes da Atenção
             Básica, de composição multiprofissional, com responsabilidade
             exclusiva de prestar atenção básica às pessoas privadas de liberdade
@@ -382,17 +373,17 @@ export default function SUS() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-          </resumoacoes>
+          </span>
         </div>
 
-        <introducao className="subintroducao5">Modalidades:</introducao>
+        <span className="subintroducao5">Modalidades:</span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             <br />
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -474,10 +465,10 @@ export default function SUS() {
             fisioterapeuta, nutricionista, farmacêutico, assistente social ou
             enfermeiro. Esta modalidade de equipe cumprirá a carga horária de 30
             horas semanais.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem4
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -487,9 +478,9 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem4} />
-        </imagem4>
+        </div>
 
-        <imagem5
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -499,22 +490,22 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem5} />
-        </imagem5>
+        </div>
 
-        <introducao className="introducao3">
+        <span className="introducao3">
           3 - Redes de atenção à saúde
-        </introducao>
+        </span>
 
-        <introducao className="subintroducao6">
+        <span className="subintroducao6">
           Unidade básica de saúde (UBS)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             <br />
             <span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -548,10 +539,10 @@ export default function SUS() {
             de referência para cuidar de sua saúde. As equipes estão aptas a
             atender e acompanhar a saúde dos indivíduos ao longo das diferentes
             fases da vida.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem6
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -561,18 +552,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem6} />
-        </imagem6>
+        </div>
 
-        <introducao className="subintroducao7">
+        <span className="subintroducao7">
           Unidade de pronto-atendimento (UPA)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             A Unidade de Pronto Atendimento (UPA 24h) faz parte da Rede de
             Atenção às Urgências. O objetivo é concentrar os atendimentos de
             saúde de complexidade intermediária, compondo uma rede organizada em
@@ -602,10 +593,10 @@ export default function SUS() {
             rede de saúde, para realização de procedimento de alta complexidade.
             As UPAs funcionam 24 horas por dia, sete dias por semana, e podem
             atender grande parte das urgências e emergências.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem7
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -615,18 +606,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem7} />
-        </imagem7>
+        </div>
 
-        <introducao className="subintroducao8">
+        <span className="subintroducao8">
           Unidade Hospitalar (UH)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             Consiste em um estabelecimento de saúde dotado de internação, meios
             diagnósticos e terapêuticos, com o objetivo de prestar assistência
             médica curativa e de reabilitação, podendo dispor de atividades de
@@ -643,10 +634,10 @@ export default function SUS() {
             com o objetivo de eliminar, diminuir ou prevenir riscos à saúde e de
             intervir nos problemas sanitários decorrentes da prestação de
             serviços de interesse da saúde, aplicando as legislações em vigor.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem8
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -656,18 +647,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem8} />
-        </imagem8>
+        </div>
 
-        <introducao className="subintroducao9">
+        <span className="subintroducao9">
           Centro de atenção pisicossocial (CAPS)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             Os Centros de Atenção Psicossocial - Caps são serviços de saúde de
             caráter aberto e comunitário voltados aos atendimentos de pessoas
             com sofrimento psíquico ou transtorno mental, incluindo aquelas com
@@ -685,10 +676,10 @@ export default function SUS() {
             ocupacional, reabilitação neuropsicológica, oficinas terapêuticas,
             medicação assistida, atendimentos familiares e domiciliares, entre
             outros.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem9
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -698,18 +689,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem9} />
-        </imagem9>
+        </div>
 
-        <introducao className="subintroducao10">
+        <span className="subintroducao10">
           Centro de referência da assistência social (CRAS)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             O Centro de Referência de Assistência Social (Cras) é a porta de
             entrada da Assistência Social. É um local público, localizado
             prioritariamente em áreas de maior vulnerabilidade social, onde são
@@ -765,10 +756,10 @@ export default function SUS() {
             chamadas “Equipes Volantes”, que realizam a busca ativa. O
             deslocamento destas equipes é realizado por meio de carros ou das
             Lanchas da Assistência Social.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem10
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -778,18 +769,18 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem10} />
-        </imagem10>
+        </div>
 
-        <introducao className="subintroducao11">
+        <span className="subintroducao11">
           Núcleo de atendimento familiar sistêmico (NASF)
-        </introducao>
+        </span>
 
         <div className="blocotxt">
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <resumoacoes className="resumoacoes">
+          <span className="resumoacoes">
             O Núcleo de Apoio à Saúde da Família (NASF) foi criado em 2008 pela
             Portaria GM/ MS nº 154 de 24 de junho de 2008 (revogada pela
             Portaria GM/ MS nº 2.488 de 21 de outubro de 2011), com o objetivo
@@ -846,10 +837,10 @@ export default function SUS() {
             para populações específicas (consultórios na rua, equipes
             ribeirinhas e fluviais), agregando-se de modo específico ao processo
             de trabalho das mesmas, configurando-se como uma equipe ampliada.
-          </resumoacoes>
+          </span>
         </div>
 
-        <imagem11
+        <div
           style={{
             display: "flex",
             width: "47%",
@@ -859,27 +850,26 @@ export default function SUS() {
           }}
         >
           <Image alt="Logo MiscWeb" src={Imagem11} />
-        </imagem11>
+        </div>
 
-
-
-        <questaonumero className="questaonumero">
-          <questao className="questao">
+        <span className="questaonumero">
+          <span className="questao">
             <h4 className="questao1">Questão 1 de 5</h4>
-            <questaotexto className="questaotexto">
-            Ao dar entrada em uma unidade pública de saúde, uma paciente foi atendida preferencialmente,
-            passando à frente de pacientes que estavam aguardando atendimento e que tinham uma classificação
-            de risco mais grave. Após reclamações, soube-se que o privilégio no atendimento se deu por
-            tratar-se de amiga de um deputado influente na cidade. De acordo com a Lei Orgânica da Saúde,
-            a conduta feriu diretamente o seguinte princípio do SUS:
-            </questaotexto>
-          </questao>
-        </questaonumero>
+            <span className="questaotexto">
+              Ao dar entrada em uma unidade pública de saúde, uma paciente foi
+              atendida preferencialmente, passando à frente de pacientes que
+              estavam aguardando atendimento e que tinham uma classificação de
+              risco mais grave. Após reclamações, soube-se que o privilégio no
+              atendimento se deu por tratar-se de amiga de um deputado influente
+              na cidade. De acordo com a Lei Orgânica da Saúde, a conduta feriu
+              diretamente o seguinte princípio do SUS:
+            </span>
+          </span>
+        </span>
 
         <div className="questaocard">
           {questions[0].answerOptions.map((answer, index) => (
-            <div
-              key={index} className="" >
+            <div key={index} className="">
               <input type="radio" className="input" />
               <p className="alternativas">{answer.answer}</p>
             </div>
@@ -896,7 +886,7 @@ export default function SUS() {
         </div>
       </main>
 
-      <colaboracoes>
+      <div>
         <hr
           style={{
             position: "absolute",
@@ -906,11 +896,11 @@ export default function SUS() {
           }}
         />
 
-        <textocolaboracoes className="textocolaboracoes">
+        <span className="textocolaboracoes">
           Colaborações
-        </textocolaboracoes>
+        </span>
 
-        <misclogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -923,9 +913,9 @@ export default function SUS() {
           <a href="">
             <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
           </a>
-        </misclogo>
+        </div>
 
-        <suslogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -938,9 +928,9 @@ export default function SUS() {
           <a href="https://conectesus.saude.gov.br/">
             <Image alt="Logo SUS" src={SusColaboracoes} />
           </a>
-        </suslogo>
+        </div>
 
-        <cesupalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -953,9 +943,9 @@ export default function SUS() {
           <a href="https://www.cesupa.br/#">
             <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
           </a>
-        </cesupalogo>
+        </div>
 
-        <getalogo
+        <div
           style={{
             display: "flex",
             position: "absolute",
@@ -968,8 +958,8 @@ export default function SUS() {
           <a href="https://geta.omnicesupa.com/">
             <Image alt="Logo GETA" src={GetaColaboracoes} />
           </a>
-        </getalogo>
-      </colaboracoes>
+        </div>
+      </div>
 
       <style jsx>{`
         @tailwind base;
@@ -1259,22 +1249,20 @@ export default function SUS() {
           width: 100px;
           height: 30px;
           position: relative;
-
-        } 
+        }
         .questao {
-         background-color: ;
+          background-color: ;
         }
         .questaocard {
           position: relative;
-          background-color: #C3C1C1;
+          background-color: #c3c1c1;
           border: 2px solid black;
         }
         .questaotexto {
           color: #000;
           font-weight: bold;
         }
-        .alternativas{
-          
+        .alternativas {
         }
         .textocolaboracoes {
           position: absolute;
@@ -1294,5 +1282,5 @@ export default function SUS() {
         }
       `}</style>
     </>
-  )
+  );
 }

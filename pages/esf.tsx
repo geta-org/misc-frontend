@@ -19,25 +19,25 @@ export default function ESF() {
         <link rel="icon" href="/Outros/favicon.ico"/>
       </Head>
       <main className="main">
-        <navbar className="navbar">
+        <div className="navbar">
           <a href="/sus">
-            <sus className="susnav">SUS</sus>
+            <span className="susnav">SUS</span>
           </a>
           <a href="/esf">
-           <esf className="esfnav">Estratégia Saúde da Família</esf>
+           <span className="esfnav">Estratégia Saúde da Família</span>
           </a>
           <a href="/acoes">
-            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+            <span className="acoesnav">Ações Desenvolvidas</span>
           </a>
-        </navbar>
+        </div>
 
-        <cadastrobar className="cadastrobar">
+        <span className="cadastrobar">
           <Button className="btcastatro">Cadastro</Button>
           <Button className="btentrar">Entrar</Button>
-        </cadastrobar>
+        </span>
 
         <header className="header">
-          <logomisc
+          <div
             style={{
               display: "flex",
               width: "47%",
@@ -49,8 +49,8 @@ export default function ESF() {
             <a href="/home">
               <Image alt="Logo MiscWeb" src={LogoMisc} />
             </a>
-          </logomisc>
-          <logogeta
+          </div>
+          <div
             style={{
               position: "absolute",
               width: "180px",
@@ -60,8 +60,8 @@ export default function ESF() {
             }}
           >
             <Image alt="Logo GETA" src={LogoGETA} />
-          </logogeta>
-          <usuarioft
+          </div>
+          <div
             style={{
               width: "7%",
               height: "auto",
@@ -73,9 +73,9 @@ export default function ESF() {
             }}
           >
             <Image alt="Imagem Usuário" src={Usuarioft} />
-          </usuarioft>
+          </div>
 
-          <titulo className="titulo">
+          <span className="titulo">
             Sua plataforma de aprendizado digital, para o<br />
             <span className="letracor"> M</span>
             <span className="titulocor">ódulo de</span>
@@ -85,9 +85,9 @@ export default function ESF() {
             <span className="titulocor">aúde na</span>
             <span className="letracor"> C</span>
             <span className="titulocor">omunidade</span>
-          </titulo>
+          </span>
         </header>
-        <logoesf
+        <div
             style={{
               display: "flex",
               width: "47%",
@@ -97,20 +97,20 @@ export default function ESF() {
             }}
           >
             <Image alt="Logo MiscWeb" src={LogoESF} />
-          </logoesf>
+          </div>
           
-          <tituloacoes className="tituloacoes">
+          <span className="tituloacoes">
           Estratégia Saúde da Família (ESF)
-          </tituloacoes>
+          </span>
 
-          <introducao className="introducao">
+          <span className="introducao">
           Introdução:
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Visa à reorganização da atenção primária no País, de acordo com os preceitos do SUS. 
             É uma estratégia de expansão, qualificação e consolidação da atenção primária por favorecer uma 
             reorientação do processo de trabalho com maior potencial de aprofundar os princípios, diretrizes e 
@@ -128,17 +128,17 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="introducao1">
+          <span className="introducao1">
           1 -  Atenção primária a saúde
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -167,21 +167,21 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="introducao2">
+          <span className="introducao2">
           2 -  Tipos de equipes de saúde
-          </introducao>
+          </span>
 
-          <introducao className="subintroducao1">
+          <span className="subintroducao1">
           Equipe de saúde da família fluvial
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -204,17 +204,17 @@ export default function ESF() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao2">
+          <span className="subintroducao2">
           Equipe de saúde da família ribeirinha
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -255,17 +255,17 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao3">
+          <span className="subintroducao3">
           Equipe de Consultório na Rua
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -312,17 +312,17 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao4">
+          <span className="subintroducao4">
           Equipe de Atenção Básica Prisional
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -335,17 +335,17 @@ export default function ESF() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao5">
+          <span className="subintroducao5">
           Modalidades:
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -430,21 +430,21 @@ export default function ESF() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="introducao3">
+          <span className="introducao3">
           3 -  Redes de atenção à saúde
-          </introducao>
+          </span>
 
-          <introducao className="subintroducao6">
+          <span className="subintroducao6">
           Unidade básica de saúde (UBS)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -495,17 +495,17 @@ export default function ESF() {
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao7">
+          <span className="subintroducao7">
           Unidade de pronto-atendimento (UPA)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -558,17 +558,17 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao8">
+          <span className="subintroducao8">
           Unidade Hospitalar (UH)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -591,17 +591,17 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao9">
+          <span className="subintroducao9">
           Centro de atenção pisicossocial (CAPS)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -624,39 +624,39 @@ export default function ESF() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao10">
+          <span className="subintroducao10">
           Centro de referência da assistência social (CRAS)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
             Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
-            </resumoacoes>
+            </span>
           </div>
 
-          <introducao className="subintroducao11">
+          <span className="subintroducao11">
           Núcleo de atendimento familiar sistêmico (NASF)
-          </introducao>
+          </span>
 
           <div className="blocotxt">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <resumoacoes className="resumoacoes">
+            <span className="resumoacoes">
            
-            </resumoacoes>
+            </span>
           </div>
 
       </main>
 
-      <colaboracoes>
+      <div>
         <hr
           style={{
             position: "absolute",
@@ -666,11 +666,11 @@ export default function ESF() {
           }}
         />
 
-        <textocolaboracoes className="textocolaboracoes">
+        <span className="textocolaboracoes">
           Colaborações
-        </textocolaboracoes>
+        </span>
 
-        <misclogo
+        <span
           style={{
             display: "flex",
             position: "absolute",
@@ -683,9 +683,9 @@ export default function ESF() {
           <a href="">
             <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
           </a>
-        </misclogo>
+        </span>
 
-        <suslogo
+        <span
           style={{
             display: "flex",
             position: "absolute",
@@ -698,9 +698,9 @@ export default function ESF() {
           <a href="https://conectesus.saude.gov.br/">
             <Image alt="Logo SUS" src={SusColaboracoes} />
           </a>
-        </suslogo>
+        </span>
 
-        <cesupalogo
+        <span
           style={{
             display: "flex",
             position: "absolute",
@@ -713,9 +713,9 @@ export default function ESF() {
           <a href="https://www.cesupa.br/#">
             <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
           </a>
-        </cesupalogo>
+        </span>
 
-        <getalogo
+        <span
           style={{
             display: "flex",
             position: "absolute",
@@ -728,8 +728,8 @@ export default function ESF() {
           <a href="https://geta.omnicesupa.com/">
             <Image alt="Logo GETA" src={GetaColaboracoes} />
           </a>
-        </getalogo>
-      </colaboracoes>
+        </span>
+      </div>
 
       <style jsx>{`
         .main {
@@ -741,9 +741,9 @@ export default function ESF() {
         .navbar {
           position: fixed;
           display: flex;
-          z-index: 2;
           width: 100%;
-          height: 0.355%;
+          height: 9.9%;
+          z-index: 2;
           background-color: #d0ffff;
         }
         .cadastrobar {

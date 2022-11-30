@@ -843,8 +843,82 @@ export default function SUS() {
         >
           <Image alt="Logo MiscWeb" src={Imagem11} />
         </div>
+      </main>
 
-        <span className="questaonumero">
+      <div>
+        <hr
+          style={{
+            position: "absolute",
+            width: "100%",
+            marginTop: "18550px",
+            color: "#000",
+          }}
+        />
+
+        <span className="textocolaboracoes">Colaborações</span>
+
+        <div
+          style={{
+            display: "flex",
+            position: "absolute",
+            width: "314px",
+            height: "154px",
+            marginTop: "18700px",
+            marginLeft: "40px",
+          }}
+        >
+          <a href="">
+            <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
+          </a>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            position: "absolute",
+            width: "261px",
+            height: "144px",
+            marginTop: "18700px",
+            marginLeft: "405px",
+          }}
+        >
+          <a href="https://conectesus.saude.gov.br/">
+            <Image alt="Logo SUS" src={SusColaboracoes} />
+          </a>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            position: "absolute",
+            width: "334px",
+            height: "117px",
+            marginTop: "18700px",
+            marginLeft: "715px",
+          }}
+        >
+          <a href="https://www.cesupa.br/#">
+            <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
+          </a>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            position: "absolute",
+            width: "163px",
+            height: "176px",
+            marginTop: "18700px",
+            marginLeft: "1100px",
+          }}
+        >
+          <a href="https://geta.omnicesupa.com/">
+            <Image alt="Logo GETA" src={GetaColaboracoes} />
+          </a>
+        </div>
+      </div>
+
+      <span className="questaonumero1">
           <span className="questao">
             <h4 className="questao1">Questão 1 de 5</h4>
             <span className="questaotexto">
@@ -859,7 +933,7 @@ export default function SUS() {
           </span>
         </span>
 
-        <div className="questaocard">
+        <div className="questaocard1">
           {questions[0].answerOptions.map((answer, index) => (
             <div key={index} className="">
               <input type="radio" className="input" />
@@ -876,80 +950,132 @@ export default function SUS() {
             Proximo
           </button>
         </div>
-      </main>
 
-      <div>
-        <hr
-          style={{
-            position: "absolute",
-            width: "100%",
-            marginTop: "16000px",
-            color: "#000",
-          }}
-        />
+        <span className="questaonumero2">
+          <span className="questao">
+            <h4 className="questao2">Questão 2 de 5</h4>
+            <span className="questaotexto">
+            A redistribuição das responsabilidades quanto às ações e serviços de saúde entre os vários 
+            níveis de governo, a partir da ideia de que quanto mais perto do fato a decisão for tomada, 
+            mais chance haverá de acerto, está relacionada ao seguinte princípio do SUS:
+            </span>
+          </span>
+        </span>
 
-        <span className="textocolaboracoes">Colaborações</span>
-
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            width: "314px",
-            height: "154px",
-            marginTop: "16100px",
-            marginLeft: "40px",
-          }}
-        >
-          <a href="">
-            <Image alt="Logo MiscWeb" src={MiscWebColaboracoes} />
-          </a>
+        <div className="questaocard2">
+          {questions[0].answerOptions.map((answer, index) => (
+            <div key={index} className="">
+              <input type="radio" className="input" />
+              <p className="alternativas">{answer.answer}</p>
+            </div>
+          ))}
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            width: "261px",
-            height: "144px",
-            marginTop: "16100px",
-            marginLeft: "405px",
-          }}
-        >
-          <a href="https://conectesus.saude.gov.br/">
-            <Image alt="Logo SUS" src={SusColaboracoes} />
-          </a>
+        <div className="flex justify-between w-full mt-4 text-white">
+          <button className="w-[49%] py-3 bg-indigo-600 rounded-lg">
+            Anterior
+          </button>
+          <button className="w-[49%] py-3 bg-indigo-600 question-lg">
+            Proximo
+          </button>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            width: "334px",
-            height: "117px",
-            marginTop: "16100px",
-            marginLeft: "715px",
-          }}
-        >
-          <a href="https://www.cesupa.br/#">
-            <Image alt="Logo Cesupa" src={CesupaColaboracoes} />
-          </a>
+        <span className="questaonumero3">
+          <span className="questao">
+            <h4 className="questao3">Questão 3 de 5</h4>
+            <span className="questaotexto">
+            Considerando os objetivos do Sistema Único de Saúde (SUS), dispostos na Lei nº 8.080/90, 
+            analise as afirmativas a seguir:
+            <p></p>
+            I - Um dos objetivos do SUS diz respeito à identificação e divulgação dos fatores 
+            condicionantes e determinantes da saúde.<p></p>
+            II - O SUS tem como objetivo principal a execução de ações de vigilância sanitária e 
+            epidemiológica e de saúde do trabalhador.<p></p>
+            III - Não está incluída nos objetivos do SUS a assistência às pessoas por intermédio de 
+            ações de promoção, proteção e recuperação da saúde, com a realização integrada das ações 
+            assistenciais e das atividades preventivas.<p></p>
+            Está correto somente o que se afirma em:
+            </span>
+          </span>
+        </span>
+
+        <div className="questaocard3">
+          {questions[0].answerOptions.map((answer, index) => (
+            <div key={index} className="">
+              <input type="radio" className="input" />
+              <p className="alternativas">{answer.answer}</p>
+            </div>
+          ))}
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            width: "163px",
-            height: "176px",
-            marginTop: "16100px",
-            marginLeft: "1100px",
-          }}
-        >
-          <a href="https://geta.omnicesupa.com/">
-            <Image alt="Logo GETA" src={GetaColaboracoes} />
-          </a>
+        <div className="flex justify-between w-full mt-4 text-white">
+          <button className="w-[49%] py-3 bg-indigo-600 rounded-lg">
+            Anterior
+          </button>
+          <button className="w-[49%] py-3 bg-indigo-600 question-lg">
+            Proximo
+          </button>
         </div>
-      </div>
+
+        <span className="questaonumero4">
+          <span className="questao">
+            <h4 className="questao4">Questão 4 de 5</h4>
+            <span className="questaotexto">
+            Assinale a alternativa que traz os atributos definidos como essenciais na Atenção Primária à Saúde:
+            </span>
+          </span>
+        </span>
+
+        <div className="questaocard4">
+          {questions[0].answerOptions.map((answer, index) => (
+            <div key={index} className="">
+              <input type="radio" className="input" />
+              <p className="alternativas">{answer.answer}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="flex justify-between w-full mt-4 text-white">
+          <button className="w-[49%] py-3 bg-indigo-600 rounded-lg">
+            Anterior
+          </button>
+          <button className="w-[49%] py-3 bg-indigo-600 question-lg">
+            Proximo
+          </button>
+        </div>
+
+        <span className="questaonumero5">
+          <span className="questao">
+            <h4 className="questao5">Questão 5 de 5</h4>
+            <span className="questaotexto">
+            Analise as afirmativas a seguir: <p></p>
+            I-O NASF faz parte da Atenção Básica e deve possuir uma unidade física independente, 
+            que seja de livre acesso para todos os cidadãos e permita o atendimento individual e o 
+            coletivo dos pacientes, assim como a realização de reuniões públicas de grupos sociais diversos. <p></p>
+            II. A Política Nacional de Atenção Básica eliminou o termo “Atenção Primária à Saúde” (APS), 
+            pois, nas atuais concepções sobre saúde pública, a APS não é equivalente ao termo “Atenção Básica”.
+            <p></p> Marque a alternativa CORRETA:
+            </span>
+          </span>
+        </span>
+
+        <div className="questaocard5">
+          {questions[0].answerOptions.map((answer, index) => (
+            <div key={index} className="">
+              <input type="radio" className="input" />
+              <p className="alternativas">{answer.answer}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="flex justify-between w-full mt-4 text-white">
+          <button className="w-[49%] py-3 bg-indigo-600 rounded-lg">
+            Anterior
+          </button>
+          <button className="w-[49%] py-3 bg-indigo-600 question-lg">
+            Proximo
+          </button>
+        </div>
 
       <style jsx>{`
         @tailwind base;
@@ -1103,7 +1229,7 @@ export default function SUS() {
         .introducao3 {
           position: absolute;
           left: 200px;
-          top: 8000px;
+          top: 8200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1139,7 +1265,7 @@ export default function SUS() {
         .subintroducao4 {
           position: absolute;
           left: 200px;
-          top: 5200px;
+          top: 5350px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1148,7 +1274,7 @@ export default function SUS() {
         .subintroducao5 {
           position: absolute;
           left: 200px;
-          top: 5750px;
+          top: 5900px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1157,7 +1283,7 @@ export default function SUS() {
         .subintroducao6 {
           position: absolute;
           left: 200px;
-          top: 8100px;
+          top: 8300px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1166,7 +1292,7 @@ export default function SUS() {
         .subintroducao7 {
           position: absolute;
           left: 200px;
-          top: 9200px;
+          top: 9400px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1175,7 +1301,7 @@ export default function SUS() {
         .subintroducao8 {
           position: absolute;
           left: 200px;
-          top: 10200px;
+          top: 10400px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1184,7 +1310,7 @@ export default function SUS() {
         .subintroducao9 {
           position: absolute;
           left: 200px;
-          top: 11150px;
+          top: 11350px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1193,7 +1319,7 @@ export default function SUS() {
         .subintroducao10 {
           position: absolute;
           left: 200px;
-          top: 12200px;
+          top: 12400px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1202,7 +1328,7 @@ export default function SUS() {
         .subintroducao11 {
           position: absolute;
           left: 200px;
-          top: 13800px;
+          top: 14000px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1235,18 +1361,65 @@ export default function SUS() {
           visibility: visible;
           border: 2px solid black;
         }
-        .questaonumero {
+        .questaonumero1 {
           width: 100px;
           height: 30px;
           position: relative;
+          top: 15620px;
         }
-        .questao {
-          background-color: ;
+        .questaonumero2 {
+          width: 100px;
+          height: 30px;
+          position: relative;
+          top: 15620px;
         }
-        .questaocard {
+        .questaonumero3 {
+          width: 100px;
+          height: 30px;
+          position: relative;
+          top: 15620px;
+        }
+        .questaonumero4 {
+          width: 100px;
+          height: 30px;
+          position: relative;
+          top: 15620px;
+        }
+        .questaonumero5 {
+          width: 100px;
+          height: 30px;
+          position: relative;
+          top: 15620px;
+        }
+        .questaocard1 {
           position: relative;
           background-color: #c3c1c1;
           border: 2px solid black;
+          top: 15620px;
+        }
+        .questaocard2 {
+          position: relative;
+          background-color: #c3c1c1;
+          border: 2px solid black;
+          top: 15620px;
+        }
+        .questaocard3 {
+          position: relative;
+          background-color: #c3c1c1;
+          border: 2px solid black;
+          top: 15620px;
+        }
+        .questaocard4 {
+          position: relative;
+          background-color: #c3c1c1;
+          border: 2px solid black;
+          top: 15620px;
+        }
+        .questaocard5 {
+          position: relative;
+          background-color: #c3c1c1;
+          border: 2px solid black;
+          top: 15620px;
         }
         .questaotexto {
           color: #000;
@@ -1258,7 +1431,7 @@ export default function SUS() {
           position: absolute;
           width: 100%;
           height: 281px;
-          top: 16050px;
+          top: 18650px;
           font-family: "Arial";
           font-style: normal;
           font-weight: 600;
